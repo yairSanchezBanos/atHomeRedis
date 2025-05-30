@@ -1,0 +1,11 @@
+1. TCP/IP and Socket Programming want the server to have connection between server and client
+2. Concurrency and Multithreading, will allow us to handle multiple clients at the same time 
+3. Mutex and Sync... , help give us safe acess 
+4. Data Structures -> Hash Tables(easy to use key to store), Vector(help maintain the order)
+5. Parsing and RESP protocol
+6. File I/O presitance save and load the data 
+7. Signal Handling, help with the server
+8. Command Processing and Response Formatting
+9. Singleton Pattern, only use one database location so it does not get mixed up
+10. Bitwise Opretors '|='
+11. std::

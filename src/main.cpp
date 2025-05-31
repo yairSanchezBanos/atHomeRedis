@@ -5,6 +5,7 @@
 
 int main(int argc, char* argv[]){
 
+    
     int port = 6379; //default port
 
     if(argc >= 2) port = std::stoi(argv[1]);//checking if the user wants to specific port
@@ -21,5 +22,9 @@ int main(int argc, char* argv[]){
     persistanceThread.detach();
 
     server.run();
+
+    
+
+
     return 0;
 }

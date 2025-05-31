@@ -1,4 +1,4 @@
-#include "include/RedisServer.h"
+#include "../include/RedisServer.h"
 
 #include <iostream>
 #include <sys/socket.h>
@@ -44,6 +44,6 @@ void RedisServer::run(){
         std::cerr << "Error listening on server socket\n";
     }
 
-    std::cout << "Redis SErver Listening On Port " << port << "\n";
+    std::cout << "Redis Server Listening On Port " << port << "\n";
     
 }

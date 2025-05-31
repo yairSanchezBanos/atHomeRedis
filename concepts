@@ -9,3 +9,10 @@
 9. Singleton Pattern, only use one database location so it does not get mixed up
 10. Bitwise Opretors '|='
 11. std::
+
+RedisServer class, for running and shuting down
+
+
+RedisDatabase class, doing almost every operation 
+
+RedisCommandHandler class
